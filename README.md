@@ -12,9 +12,9 @@ The tool is developed in python 2.7.x and is heavily used in the paper  "Automat
 
 These are the files included in the repository:
 
-exp_greedy_1.csv: file used to run the tool that defines (ten problems solved by greedy_1.py)
+exp_greedy_1.csv: file used to run the tool (defines ten problems that will be solved by greedy_1.py)
 
-exp_greedy_2.csv: file used to run the tool that defines (ten problems solved by greedy_2.py)
+exp_greedy_2.csv: file used to run the tool (defines ten problems that will be solved by greedy_2.py)
 
 experiments.py  : based on the definitions in problem.py, defines the system instances (problems) to solve.
 
