@@ -1,4 +1,4 @@
-# Automatic configuration of ROS applications for near-optimal performance
+# Automatic Configuration of ROS Applications for Near-Optimal Performance
 
 This tool is a work-in-progress that allows to automatically configuring ROS applications in order to solve the following problems:
 
@@ -8,7 +8,7 @@ This tool is a work-in-progress that allows to automatically configuring ROS app
 The tool is developed in python 2.7.x and is heavily used in the paper  "Automatic configuration of ROS applications for near-optimal performance" submitted to IROS 2016.
 
 
--- FILES --
+## Files description
 
 These are the files included in the repository:
 
@@ -27,12 +27,17 @@ model.py        : defines all classes used by the tool (Problem, Allocation, Com
 problem.py      : defines the baseline problem (system instance) we want to solve, including the number of ROS nodes per type of robot, the number of servers and the their capacity. Note that when solving problem 2, SERVER_CAPACITY must be = 0.
 
 
--- RUNNING THE TOOL -- 
+## Running the tool
 
 Being in the /sim directory run the following command:
 
   python experiments.py FILE.csv
   
   
+## Further Information
 
+For futher details of this work, please consult the paper or contact one of the following main authors:
+
+Jose Cano: jcanore@inf.ed.ac.uk
+Alejandro Bordallo: alex.bordallo@ed.ac.uk
 
