@@ -38,6 +38,6 @@ Being in the /sim directory run the following command:
 
 For futher details of this work, please consult the paper or contact one of the following main authors:
 
-Jose Cano: jcanore@inf.ed.ac.uk
+Jose Cano: jcanore@inf.ed.ac.uk <br />
 Alejandro Bordallo: alex.bordallo@ed.ac.uk
 
